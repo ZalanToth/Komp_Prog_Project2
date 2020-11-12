@@ -11,20 +11,20 @@
     <script src = "script.js"></script>
 </head>
 <body>
-<div class="test">
+<div class="test col-lg-12 col-md-8 col-sm-6 col-xs-2 col-2">
     <nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark bg-primary">
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link disabled " href="teszt.html">Összegző</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Csatlakozási lehetőségek</a>
+            <a class="nav-link" href="csatlak.html">Csatlakozási lehetőségek</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="lezernyom.html">Lézernyomtató</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"></a>
+            <a class="nav-link" href=""></a>
           </li>
         </ul>
       </nav>
@@ -45,7 +45,7 @@
                 <p>a hőnyomtató speciális papírtekercset, úgynevezett hőpapírt használ. Ennek az a tulajdonsága, hogy a fehér bevonat a hő hatására megfeketedik.</p>
 
         </div>  
-            <div class="kep col-lg-12 col-md-8 col-sm-6 col-xs-2 col-2">
+            <div class="kep">
             <h2>Képalkotás szerint</h2> 
                 <h3>tintasugaras nyomtatók</h3>
                     <p>
@@ -88,9 +88,21 @@
                     a nyomat létrehozásához a lézerfényt használ. A fényhenger a központi része, ez egy szigetelőanyaggal bevont fémdob. Amikor lézerfény éri, vezetővé válik. Miközben a dob forog, a lézer egy képet alkot. Ez a kép vonzza magára a száraz festéket.
                 </p>
             </div>
+        <div class="erettsegi">
+            <form action="#">
+                <label for="szobeli">Szóbeli pontszám:</label><br>
+                <input type="text" id="szobeli" name="szobeli" value=""><br>
+                <label for="irasbeli">Írásbeli pontszám:</label><br>
+                <input type="text" id="irasbeli" name="irasbeli" value=""><br><br>
+                <input type="submit" value="Teszt">
+              </form> 
         </div>
             <footer>
-
+                <div class="footer">
+                    Készítette: Tóth Zalán<br>
+                    Osztály: 11C 
+                </div>        
         </footer>
+    </div>
 </body>
 </html>

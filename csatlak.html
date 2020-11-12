@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Csatlakozási lehetőségek</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="styles.css" rel="stylesheet">
+    <script src = "script.js"></script>
+</head>
+<body>
+<div class="test col-lg-12 col-md-8 col-sm-6 col-xs-2 col-2">
+    <nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark bg-primary">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link  " href="Osszegzo.html">Összegző</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link disabled" href="csatlak.html">Csatlakozási lehetőségek</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lezernyom.html">Lézernyomtató</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+        </ul>
+      </nav>
+    <h1>Nyomtatók Csatlakozási lehetőségei</h1>
+    <header>
+        <p>
+            A nyomtatót egy kompatibilis csatlakozó segítségével kötjük össze a számítógéppel.
+        </p>
+    </header>
+    <div class="uto">
+        <h3>Soros csatlakozó</h3>
+            <p>
+                Soros átvitel esetén egy átviteli ciklus során egyetlen bit információ halad át. A soros kapcsolat jól használható mátrixnyomtatók esetében, mivel ott nincs szükség gyors adatátvitelre.
+            </p>
+    </div>
+    <div class="csat">
+        <h3>Párhuzamos csatlakozó</h3>
+            <p>
+                A párhuzamos csatlakozás gyorsabb, mint a soros. Egy átviteli ciklus során több bit adat halad a kábelen. Nagyobb sávszélességen áramlik az információ a nyomtatótól a számítógéphez és vissza.
+            </p>
+            <p>
+                A nyomtatók párhuzamos csatlakozását az IEEE 1284 szabvány írja le. Az EPP (Enhanced Parallel Port, továbbfejlesztett párhuzamos port) és az ECP (Enhanced Capabilities Port, kiterjesztett képességű port) az IEEE 1284 szabvány két olyan üzemmódja, mely kétirányú kommunikációt tesz lehetővé.
+            </p>
+    </div>
+    <div class="uto">
+        <h3>SCSI csatlakozó</h3>
+            <p>
+                A SCSI (Small Computer Systems Interface) csatlakozó párhuzamos kommunikációs technológia révén teszi lehetővé a gyors adatátvitelt.
+            </p>
+    </div>
+    <div class="csat">
+        <h3>USB csatlakozó</h3>
+            <p>
+                Az USB nagyon gyakori interfész nyomtatók és más eszközök számára. Az operációs rendszerek PnP támogatással segítik az USB eszközök csatlakozását. Amint csatlakoztatunk egy ilyen eszközt, a számítógép felismeri, és elkezdi telepíteni a megfelelő illesztőprogramot.
+            </p>
+    </div>
+    <div class="uto">
+        <h3>FireWire csatlakozó</h3>
+            <p>
+                A FireWire, más néven i.LINK vagy IEEE 1394 gyors és platformfüggetlen kommunikációs megoldás. Digitális nyomtatókat, lapolvasókat, digitális fényképezőgépeket és merevlemezeket lehet vele csatlakoztatni.
+            </p>
+            <p>
+                A FireWire perifériák, mint például a nyomtatók, közvetlenül kapcsolódnak a számítógéphez. Ezek az eszközök üzem közben is cserélhetők (hot-swappable). Akár 63 ilyen készüléket is beköthetünk egyetlen csatlakozón keresztül. A FireWire adatátviteli sebessége elérheti a 400 Mb/s-ot.
+            </p>
+    </div>
+    <div class="csat">
+        <h3>Ethernet csatlakozó</h3>
+            <p>
+                A nyomtató hálózatra csatlakoztatásához megfelelő kábel és kompatibilis hálózati csatlakozó szükséges mindkét oldalon. A legtöbb hálózati nyomtató RJ-45-ös interfésszel vagy vezeték nélküli csatolóval kapcsolódik.
+            </p>
+    </div>
+   
+    
+</div>  
+<footer>
+    <div class="footer">
+        Készítette: Tóth Zalán  
+        <br>
+        Osztály: 11C 
+    </div>        
+</footer>
+</body>
+</html>
